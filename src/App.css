@@ -1,0 +1,179 @@
+* {
+  box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.post {
+  margin: 50px;
+  padding-top: 30px;
+  border-top: 1px solid #cecece;
+}
+
+.profile {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0 100px;
+  padding: 0 20px;
+}
+
+.profile p {
+  padding-left: 20px;
+}
+
+.location {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0 100px;
+  padding: 0 20px;
+  font-size: 0.8rem;
+}
+
+.location .post-date{
+  padding-left: 30px;
+}
+
+.post-content{
+  border: 1px solid #000;
+  margin: 20px 90px;
+  padding: 40px;
+}
+
+.option {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.option .post-option {
+  margin: 10px 0;
+  padding: 0 10px;
+}
+
+.post-option button {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.show-comment {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  margin-top: 10px;
+  border-top: 1px solid #8b8b8b;
+}
+
+.show-comment .comment-section {
+  display: flex;
+  padding-right: 30px;
+}
+
+.show-comment .comment-section .time {
+  font-size: 0.8rem;
+  color: #5e5e5e;
+}
+
+.post-comment {
+  background-color: #cecece;
+  margin: 0 90px;
+  padding: 10px;
+}
+
+.post-comment .comment-input {
+  padding: 5px;
+}
+
+.post-comment .comment-input input {
+  margin: 0 10px;
+  padding: 5px 10px;
+  width: 80%;
+  max-width: 80%;
+  border: none;
+  border-radius: 10px;
+}
+
+.post-comment .comment-input button {
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.comment-option {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  padding-right: 100px;
+}
+
+.comment-option .option-choose {
+  margin: 10px 0;
+  padding-left: 5px;
+  cursor: pointer;
+}
+
+.feed {
+  margin-top: 10px;
+}
+
+.users {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.users li {
+  list-style: none;
+  padding: 0 10px;
+  cursor: pointer;
+}
+
+.users li a:hover {
+  color: #003fec;
+}
+
+.post-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.post-box textarea {
+  width: 30%;
+  resize: none;
+  padding: 10px;
+}
+
+.post-box button {
+  margin: 0 10px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.feed .post-img {
+  margin: 10px;
+  font-size: 0.8rem;
+}
+
+.feed .post-img input {
+  border: 1px solid #000;
+  border-radius: 5px;
+  padding: 3px 10px;
+  width: 370px;
+}
